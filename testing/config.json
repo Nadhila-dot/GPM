@@ -1,0 +1,8 @@
+{
+    "source": "http://localhost:3000",
+    "cache": {
+        "directory": "/Users/nadhi/Desktop/Binaries/testing/cache"
+    },
+    "OS": "darwin",
+    "metadata": []
+}

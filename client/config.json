@@ -1,0 +1,8 @@
+{
+    "source": "http://localhost:3000",
+    "cache": {
+        "directory": "/var/folders/x7/hh4_zmgx2h557_rr4zz3c6rh0000gn/T/go-build3256459040/b001/exe/cache"
+    },
+    "OS": "darwin",
+    "metadata": []
+}

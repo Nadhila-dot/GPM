@@ -1,0 +1,209 @@
+{
+  "packages": {
+    "Chi": {
+      "versions": {
+        "default": "github.com/go-chi/chi/v5",
+        "latest": "github.com/go-chi/chi/v5",
+        "major": {
+          "4": "github.com/go-chi/chi/v4",
+          "5": "github.com/go-chi/chi/v5"
+        },
+        "patch": []
+      }
+    },
+    "Cobra": {
+      "versions": {
+        "default": "github.com/spf13/cobra",
+        "latest": "github.com/spf13/cobra",
+        "major": {
+          "1": "github.com/spf13/cobra"
+        },
+        "patch": []
+      }
+    },
+    "Echo": {
+      "versions": {
+        "default": "github.com/labstack/echo/v4",
+        "latest": "github.com/labstack/echo/v4",
+        "major": {
+          "3": "github.com/labstack/echo/v3",
+          "4": "github.com/labstack/echo/v4"
+        },
+        "patch": []
+      }
+    },
+    "Fiber": {
+      "versions": {
+        "default": "github.com/gofiber/fiber/v2",
+        "latest": "github.com/gofiber/fiber/v3",
+        "major": {
+          "1": "github.com/gofiber/fiber/v1",
+          "2": "github.com/gofiber/fiber/v2",
+          "3": "github.com/gofiber/fiber/v3"
+        },
+        "patch": []
+      }
+    },
+    "GORM": {
+      "versions": {
+        "default": "gorm.io/gorm",
+        "latest": "gorm.io/gorm",
+        "major": {
+          "1": "github.com/jinzhu/gorm",
+          "2": "gorm.io/gorm"
+        },
+        "patch": []
+      }
+    },
+    "Gin": {
+      "versions": {
+        "default": "github.com/gin-gonic/gin",
+        "latest": "github.com/gin-gonic/gin",
+        "major": {
+          "1": "github.com/gin-gonic/gin"
+        },
+        "patch": []
+      }
+    },
+    "Godotenv": {
+      "versions": {
+        "default": "github.com/joho/godotenv",
+        "latest": "github.com/joho/godotenv",
+        "major": {
+          "1": "github.com/joho/godotenv"
+        },
+        "patch": []
+      }
+    },
+    "Viper": {
+      "versions": {
+        "default": "github.com/spf13/viper",
+        "latest": "github.com/spf13/viper",
+        "major": {
+          "1": "github.com/spf13/viper"
+        },
+        "patch": []
+      }
+    },
+    "bun": {
+      "versions": {
+        "default": "github.com/uptrace/bun",
+        "latest": "github.com/uptrace/bun",
+        "major": {
+          "1": "github.com/uptrace/bun"
+        },
+        "patch": []
+      }
+    },
+    "datatypes": {
+      "versions": {
+        "default": "gorm.io/datatypes",
+        "latest": "gorm.io/datatypes",
+        "major": {
+          "1": "gorm.io/datatypes"
+        },
+        "patch": []
+      }
+    },
+    "go-uuid": {
+      "versions": {
+        "latest": "github.com/hashicorp/go-uuid",
+        "default": "github.com/hashicorp/go-uuid",
+        "major": {
+          "1": "github.com/hashicorp/go-uuid"
+        },
+        "patch": []
+      }
+    },
+    "go.uuid": {
+      "versions": {
+        "latest": "github.com/satori/go.uuid",
+        "default": "github.com/satori/go.uuid",
+        "major": {
+          "1": "github.com/satori/go.uuid"
+        },
+        "patch": []
+      }
+    },
+    "gouuid": {
+      "versions": {
+        "latest": "github.com/nu7hatch/gouuid",
+        "default": "github.com/nu7hatch/gouuid",
+        "major": {
+          "1": "github.com/nu7hatch/gouuid"
+        },
+        "patch": []
+      }
+    },
+    "handlers": {
+      "versions": {
+        "default": "github.com/KarelKubat/whatsmeow/handlers",
+        "latest": "github.com/KarelKubat/whatsmeow/handlers",
+        "major": {
+          "1": "github.com/KarelKubat/whatsmeow/handlers"
+        },
+        "patch": []
+      }
+    },
+    "mysql": {
+      "versions": {
+        "default": "github.com/golang-migrate/migrate/v4/database/mysql",
+        "latest": "github.com/golang-migrate/migrate/v4/database/mysql",
+        "major": {
+          "1": "github.com/golang-migrate/migrate/v4/database/mysql"
+        },
+        "patch": []
+      }
+    },
+    "mysqlstore": {
+      "versions": {
+        "default": "github.com/alexedwards/scs/mysqlstore",
+        "latest": "github.com/alexedwards/scs/mysqlstore",
+        "major": {
+          "1": "github.com/alexedwards/scs/mysqlstore"
+        },
+        "patch": []
+      }
+    },
+    "orm": {
+      "versions": {
+        "default": "github.com/astaxie/beego/orm",
+        "latest": "github.com/astaxie/beego/orm",
+        "major": {
+          "1": "github.com/astaxie/beego/orm"
+        },
+        "patch": []
+      }
+    },
+    "parser": {
+      "versions": {
+        "default": "github.com/pingcap/tidb/parser",
+        "latest": "github.com/pingcap/tidb/parser",
+        "major": {
+          "1": "github.com/pingcap/tidb/parser"
+        },
+        "patch": []
+      }
+    },
+    "uuid": {
+      "versions": {
+        "latest": "v2ray.com/core/common/uuid",
+        "default": "v2ray.com/core/common/uuid",
+        "major": {
+          "1": "v2ray.com/core/common/uuid"
+        },
+        "patch": []
+      }
+    },
+    "whatsmeow": {
+      "versions": {
+        "default": "go.mau.fi/whatsmeow",
+        "latest": "go.mau.fi/whatsmeow",
+        "major": {
+          "1": "go.mau.fi/whatsmeow"
+        },
+        "patch": []
+      }
+    }
+  }
+}
