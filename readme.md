@@ -1,6 +1,13 @@
 # GMP
  The Go/Golang package manager
 
+# How to install GPM
+- For linux / Mac based systems
+```bash
+curl -fsSL https://raw.githubusercontent.com/Nadhila-
+```
+- For windows, go to the builds folder and download the .exe
+
 ## What is gpm?
 Gpm or Go package manager is wrapper around the already implemented go modules system, it makes life easier by replacing go get github.com/my_go_package_stuffies/todo-app to gpm add todo. It's suppose to feel like pip or npm but for go.
 
