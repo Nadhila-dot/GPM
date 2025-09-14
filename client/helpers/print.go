@@ -38,4 +38,10 @@ func Loading(message string) {
 	fmt.Printf("%s\033[33m[Loading] %s%s\n", bold, message, reset)
 }
 
+func Hint(message string) {
+	// ANSI escape code for light gray: \033[90m, bold: \033[1m, reset: \033[0m
+	fmt.Printf("%s\033[90m[Hint] %s%s\n", bold, message, reset)
+}
+
+
 

@@ -7,6 +7,10 @@ import (
 
 func Remove(packageName string) string {
 	nadhi.Logo()
+	if !nadhi.HasGoMod() {
+		nadhi.Error("No go.mod file found. Please run 'go mod init' first.")
+		return "Error: no go.mod file found"
+	}
 	result := toml.CheckToml()
 	if !result {
 		nadhi.Error("gpm.toml file does not exist.. Did you install any package?")

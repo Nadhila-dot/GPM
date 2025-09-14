@@ -16,5 +16,10 @@ func main() {
 
 	nadhi.CreateConfigFile("config.json")
 
+    if !nadhi.HasGoMod() {
+        nadhi.Hint("No go.mod file found. To install packages, please run 'go mod init' first.")
+		
+	}
+
 	handleCommand(os.Args[1:])
 }

@@ -11,6 +11,10 @@ import (
 
 func Download(packageArg string) string {
 	nadhi.Logo()
+	if !nadhi.HasGoMod() {
+		nadhi.Error("No go.mod file found. Please run 'go mod init' first.")
+		return "Error: no go.mod file found"
+	}
     result := toml.CreateGpmFile()
     if result != "success" {
         return "Error: " + result
