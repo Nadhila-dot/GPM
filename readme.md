@@ -4,7 +4,7 @@
 # How to install GPM
 - For linux / Mac based systems
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Nadhila-
+curl -fsSL https://raw.githubusercontent.com/Nadhila-dot/GPM/refs/heads/main/install.sh | bash
 ```
 - For windows, go to the builds folder and download the .exe
 
