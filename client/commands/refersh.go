@@ -5,6 +5,7 @@ import (
 
 	"github.com/fatih/color"
 	nadhi "nadhi.dev/binaries/gpm/helpers"
+	"nadhi.dev/binaries/gpm/toml"
 )
 
 // We all hate formating...
@@ -14,9 +15,9 @@ import (
 
 func Refresh(searchQuery ...string) string {
 	nadhi.Logo()
-	config, err := nadhi.GetConfig("source")
-	if err != nil {
-		color.Red("Error getting config: %v", err)
+	config := toml.ParseConfigFromToml()
+	if config == nil {
+		color.Red("Error getting config")
 		return ""
 	}
 

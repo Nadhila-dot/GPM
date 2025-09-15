@@ -22,5 +22,5 @@ func List() string {
 		fmt.Printf("%s%s%s -> %s\n", bold, blue, name, link)
 	}
 	nadhi.VerifyPackagesAndRemoveOnError()
-	return "Listed packages"
+	return ""
 }

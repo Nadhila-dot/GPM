@@ -36,5 +36,7 @@ func Remove(packageName string) string {
 	}
 	nadhi.Success("Successfully removed " + packageName)
 	nadhi.VerifyPackagesAndRemoveOnError()
+
+	// Keep this here, we want to show this after everything is done
 	return "Removed package: " + packageName
 }

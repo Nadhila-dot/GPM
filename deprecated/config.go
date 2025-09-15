@@ -1,4 +1,4 @@
-package nadhi
+package deprecated
 
 import (
     "encoding/json"
@@ -7,6 +7,8 @@ import (
     "path/filepath"
     "runtime"
 )
+
+// Prob should use the toml file for this.
 
 // Config represents the structure of config.json
 type Config struct {

@@ -23,9 +23,9 @@ func Download(packageArg string) string {
 
     nadhi.SuccessCheck("Found gpm.toml file..")
 
-    source, err := nadhi.GetConfig("source")
-    if err != nil {
-        nadhi.Error(fmt.Sprintf("Error getting config: %v", err))
+    source := toml.ParseConfigFromToml()
+    if source == nil {
+        nadhi.Error("Error getting config")
         return ""
     }
     nadhi.SuccessCheck(fmt.Sprintf("Using package source: %s", source.Source))
@@ -78,7 +78,10 @@ func Download(packageArg string) string {
         return "Error: version not found"
     }
 
-    // Check and show party info if available
+   // We check for party info here
+   // This is only done on packages scrapped from the source
+   // If you are installing from a custom source, this will be skipped
+   // Because we can't verify the source of the package
     if party, ok := pkg.(map[string]interface{})["party"].(map[string]interface{}); ok {
         partyType, _ := party["type"].(string)
         score, _ := party["score"].(string)

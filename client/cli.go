@@ -7,6 +7,9 @@ import (
 	nadhi "nadhi.dev/binaries/gpm/helpers"
 )
 
+// This server handles the CLI commands
+// Takes command and calls function, sounds simple enough, maybe later we can add flags too
+
 func handleCommand(args []string) {
 	if len(args) < 1 {
 		fmt.Println("No command provided.")

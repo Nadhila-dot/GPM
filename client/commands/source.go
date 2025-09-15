@@ -1,11 +1,15 @@
 package commands
 
-import nadhi "nadhi.dev/binaries/gpm/helpers"
+import (
+	nadhi "nadhi.dev/binaries/gpm/helpers"
+	"nadhi.dev/binaries/gpm/toml"
+)
 
 func Setsource(newurl string) string {
 	nadhi.Logo()
-	configPath := "config.json"
-	nadhi.EditConfigValue(configPath, "source", newurl)
+	// Removed cuz we are using the toml now ;)
+	//configPath := "config.json"
+	toml.EditConfigValueInToml("source", newurl)
 	nadhi.Success("New package source set to " + newurl)
 
 	return "true"
