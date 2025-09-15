@@ -10,7 +10,7 @@ func Logo() string {
 ` + blue + `| |_| |  __/| |  | | ` + green + `Go Package Manager
 ` + blue + ` \____|_|   |_|  |_| ` + reset)
 	fmt.Println(gray + "A package manager for Go Lang" + reset)
-	fmt.Println(WhatOs() + " Binary")
+	fmt.Println("Made for " + WhatOs() + " with " + Govar(false))
 	fmt.Println()
 
 

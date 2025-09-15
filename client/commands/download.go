@@ -10,11 +10,12 @@ import (
 )
 
 func Download(packageArg string) string {
-	nadhi.Logo()
-	if !nadhi.HasGoMod() {
-		nadhi.Error("No go.mod file found. Please run 'go mod init' first.")
-		return "Error: no go.mod file found"
-	}
+    nadhi.Logo()
+
+    if !nadhi.HasGoMod() {
+        nadhi.Error("No go.mod file found. Please run 'go mod init' first.")
+        return "Error: no go.mod file found"
+    }
     result := toml.CreateGpmFile()
     if result != "success" {
         return "Error: " + result
@@ -77,14 +78,32 @@ func Download(packageArg string) string {
         return "Error: version not found"
     }
 
+    // Check and show party info if available
+    if party, ok := pkg.(map[string]interface{})["party"].(map[string]interface{}); ok {
+        partyType, _ := party["type"].(string)
+        score, _ := party["score"].(string)
+		source, _ := party["source"].(string)
+        if partyType == "3rd" {
+
+            
+			nadhi.RedLoading(color.HiRedString(fmt.Sprintf(`|Third party package by %s Detected`, source)))
+			nadhi.RedLoading(color.HiRedString(fmt.Sprintf("|-> Type: %s, Trust Score: %s", partyType, score)))
+
+        } else {
+            nadhi.SuccessCheck(fmt.Sprintf("Source type: %s, Trust Score: %s", partyType, score))
+        }
+    }
+
     nadhi.Install(source.Source, packageArg)
 
     resultToml := toml.TomlAdd(pkgName, importPath)
     if resultToml != "success" {
-        nadhi.Error("Uh oh! " + resultToml)
+		// We had uh oh here, but it makes it look ugly
+        nadhi.Error("" + resultToml)
         return "Error: " + resultToml
     }
 
     nadhi.Success("Downloaded package " + packageArg + "..")
+    nadhi.VerifyPackagesAndRemoveOnError()
     return "Downloading package: " + packageArg
 }

@@ -3,6 +3,7 @@ package commands
 import (
 	"fmt"
 
+	nadhi "nadhi.dev/binaries/gpm/helpers"
 	"nadhi.dev/binaries/gpm/toml"
 )
 
@@ -20,5 +21,6 @@ func List() string {
 	for name, link := range pkgs {
 		fmt.Printf("%s%s%s -> %s\n", bold, blue, name, link)
 	}
+	nadhi.VerifyPackagesAndRemoveOnError()
 	return "Listed packages"
 }

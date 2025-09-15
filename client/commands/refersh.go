@@ -7,6 +7,11 @@ import (
 	nadhi "nadhi.dev/binaries/gpm/helpers"
 )
 
+// We all hate formating...
+// We should use gpt-4 for this
+// Which is exactly what I did
+
+
 func Refresh(searchQuery ...string) string {
 	nadhi.Logo()
 	config, err := nadhi.GetConfig("source")

@@ -12,6 +12,14 @@ type TransformedPackage struct {
         Major    map[string]string `json:"major"`
         Patch    []string          `json:"patch"`
     } `json:"versions"`
+    Party PartyInfo `json:"party"`
+}
+
+// PartyInfo holds metadata about the package source.
+type PartyInfo struct {
+    Source string `json:"source"`
+    Type   string `json:"type"`
+    Score  string `json:"score"`
 }
 
 // TransformToClientFormat transforms parsed packages to the minimal client format.
@@ -30,6 +38,13 @@ func TransformToClientFormat(parsed []PackageResult) map[string]TransformedPacka
             tp.Versions.Major[major] = pkg.ImportPath
         } else {
             tp.Versions.Major["1"] = pkg.ImportPath
+        }
+		// Static party info for now
+		// Later we can make this dynamic by making a central source system.
+        tp.Party = PartyInfo{
+            Source: "go.pkg.dev",
+            Type:   "3rd",
+            Score:  "8",
         }
         result[name] = tp
     }

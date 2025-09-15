@@ -23,6 +23,24 @@ func handleCommand(args []string) {
 		}
 		param := args[1]
 		commands.Download(param)
+    case "build":
+        if !hasEnoughArgs(args, 2, "build") {
+            return
+        }
+        appname := args[1]
+        dir := "./"
+        ignoreos := []string{}
+        if len(args) > 2 {
+            // Any additional args after appname are OSes to ignore
+            ignoreos = args[2:]
+        }
+        nadhi.Build(appname, dir, ignoreos)
+    case "tidy":
+		if !hasEnoughArgs(args, 1, "install") {
+			return
+		}
+		
+		commands.Tidy()
 	case "add":
 		if !hasEnoughArgs(args, 2, "add") {
 			return

@@ -12,6 +12,7 @@ func HasGoMod() bool {
     return err == nil
 }
 
+// WhatOs returns a user-friendly name for the operating system.
 func WhatOs() string {
 	if runtime.GOOS == "darwin" {
 		return "MacOS"

@@ -8,6 +8,12 @@ import (
 )
 
 func main() {
+
+    if !nadhi.HasGoMod() {
+        nadhi.Hint("No go.mod file found. To install packages, please run 'go mod init' first.")
+		
+	}
+
 	if len(os.Args) < 2 {
         nadhi.Logo()
 		fmt.Println("Usage: gpm <command> [parameters] \nDo gpm help for more info.")
@@ -15,11 +21,6 @@ func main() {
 	}
 
 	nadhi.CreateConfigFile("config.json")
-
-    if !nadhi.HasGoMod() {
-        nadhi.Hint("No go.mod file found. To install packages, please run 'go mod init' first.")
-		
-	}
 
 	handleCommand(os.Args[1:])
 }

@@ -1,5 +1,20 @@
 {
   "packages": {
+    "Allah": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/HolowSpacer/Allah",
+        "latest": "github.com/HolowSpacer/Allah",
+        "major": {
+          "1": "github.com/HolowSpacer/Allah"
+        },
+        "patch": []
+      }
+    },
     "Chi": {
       "versions": {
         "default": "github.com/go-chi/chi/v5",
@@ -65,6 +80,21 @@
         "patch": []
       }
     },
+    "GoGitDumper": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/pirateinformatique1337/allah/GoGitDumper",
+        "latest": "github.com/pirateinformatique1337/allah/GoGitDumper",
+        "major": {
+          "1": "github.com/pirateinformatique1337/allah/GoGitDumper"
+        },
+        "patch": []
+      }
+    },
     "Godotenv": {
       "versions": {
         "default": "github.com/joho/godotenv",
@@ -85,12 +115,142 @@
         "patch": []
       }
     },
+    "allah": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/holowspacer/allah",
+        "latest": "github.com/holowspacer/allah",
+        "major": {
+          "1": "github.com/holowspacer/allah"
+        },
+        "patch": []
+      }
+    },
+    "amqp": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/tochamateusz/micro/modules/message-brokes/amqp",
+        "latest": "github.com/tochamateusz/micro/modules/message-brokes/amqp",
+        "major": {
+          "1": "github.com/tochamateusz/micro/modules/message-brokes/amqp"
+        },
+        "patch": []
+      }
+    },
+    "billy": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/holiman/billy",
+        "latest": "github.com/holiman/billy",
+        "major": {
+          "1": "github.com/holiman/billy"
+        },
+        "patch": []
+      }
+    },
+    "book-service": {
+      "versions": {
+        "default": "github.com/jesus-diaz-teracode/book-service",
+        "latest": "github.com/jesus-diaz-teracode/book-service",
+        "major": {
+          "1": "github.com/jesus-diaz-teracode/book-service"
+        },
+        "patch": []
+      }
+    },
+    "book-store": {
+      "versions": {
+        "default": "github.com/jesus-diaz-teracode/book-store",
+        "latest": "github.com/jesus-diaz-teracode/book-store",
+        "major": {
+          "1": "github.com/jesus-diaz-teracode/book-store"
+        },
+        "patch": []
+      }
+    },
+    "broke": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/healthyschni/atomic-agents/components/systemprompt/broke",
+        "latest": "github.com/healthyschni/atomic-agents/components/systemprompt/broke",
+        "major": {
+          "1": "github.com/healthyschni/atomic-agents/components/systemprompt/broke"
+        },
+        "patch": []
+      }
+    },
+    "broking": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/lnksnk/lnksnk/broking",
+        "latest": "github.com/lnksnk/lnksnk/broking",
+        "major": {
+          "1": "github.com/lnksnk/lnksnk/broking"
+        },
+        "patch": []
+      }
+    },
     "bun": {
       "versions": {
         "default": "github.com/uptrace/bun",
         "latest": "github.com/uptrace/bun",
         "major": {
           "1": "github.com/uptrace/bun"
+        },
+        "patch": []
+      }
+    },
+    "casbin-pg-adapter": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/vanclief/casbin-pg-adapter",
+        "latest": "github.com/vanclief/casbin-pg-adapter",
+        "major": {
+          "1": "github.com/vanclief/casbin-pg-adapter"
+        },
+        "patch": []
+      }
+    },
+    "client": {
+      "versions": {
+        "default": "github.com/cohere-ai/cohere-go/v2/client",
+        "latest": "github.com/cohere-ai/cohere-go/v2/client",
+        "major": {
+          "1": "github.com/cohere-ai/cohere-go/v2/client"
+        },
+        "patch": []
+      }
+    },
+    "component": {
+      "versions": {
+        "default": "github.com/oodle-ai/opentelemetry-collector/component",
+        "latest": "github.com/oodle-ai/opentelemetry-collector/component",
+        "major": {
+          "1": "github.com/oodle-ai/opentelemetry-collector/component"
         },
         "patch": []
       }
@@ -105,10 +265,230 @@
         "patch": []
       }
     },
+    "dbr": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/gocraft/dbr/v2",
+        "latest": "github.com/gocraft/dbr/v2",
+        "major": {
+          "2": "github.com/gocraft/dbr/v2"
+        },
+        "patch": []
+      }
+    },
+    "errors": {
+      "versions": {
+        "default": "github.com/instill-ai/x/errors",
+        "latest": "github.com/instill-ai/x/errors",
+        "major": {
+          "1": "github.com/instill-ai/x/errors"
+        },
+        "patch": []
+      }
+    },
+    "fastime": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/kpango/fastime",
+        "latest": "github.com/kpango/fastime",
+        "major": {
+          "1": "github.com/kpango/fastime"
+        },
+        "patch": []
+      }
+    },
+    "folder-watcher": {
+      "versions": {
+        "default": "github.com/kelvin-jesus/folder-watcher",
+        "latest": "github.com/kelvin-jesus/folder-watcher",
+        "major": {
+          "1": "github.com/kelvin-jesus/folder-watcher"
+        },
+        "patch": []
+      }
+    },
+    "gemini": {
+      "versions": {
+        "latest": "github.com/thrasher-corp/gocryptotrader/exchanges/gemini",
+        "default": "github.com/thrasher-corp/gocryptotrader/exchanges/gemini",
+        "major": {
+          "1": "github.com/thrasher-corp/gocryptotrader/exchanges/gemini"
+        },
+        "patch": []
+      },
+      "party": {
+        "source": "go.pkg.dev",
+        "type": "3rd",
+        "score": "8"
+      }
+    },
+    "genai": {
+      "versions": {
+        "latest": "google.golang.org/genai",
+        "default": "google.golang.org/genai",
+        "major": {
+          "1": "google.golang.org/genai"
+        },
+        "patch": []
+      },
+      "party": {
+        "source": "go.pkg.dev",
+        "type": "3rd",
+        "score": "8"
+      }
+    },
+    "gig": {
+      "versions": {
+        "latest": "github.com/pitr/gig",
+        "default": "github.com/pitr/gig",
+        "major": {
+          "1": "github.com/pitr/gig"
+        },
+        "patch": []
+      },
+      "party": {
+        "source": "go.pkg.dev",
+        "type": "3rd",
+        "score": "8"
+      }
+    },
+    "go-gemini": {
+      "versions": {
+        "latest": "git.sr.ht/~yotam/go-gemini",
+        "default": "git.sr.ht/~yotam/go-gemini",
+        "major": {
+          "1": "git.sr.ht/~yotam/go-gemini"
+        },
+        "patch": []
+      },
+      "party": {
+        "source": "go.pkg.dev",
+        "type": "3rd",
+        "score": "8"
+      }
+    },
+    "go-gemini-socks5": {
+      "versions": {
+        "latest": "github.com/makeworld-the-better-one/go-gemini-socks5",
+        "default": "github.com/makeworld-the-better-one/go-gemini-socks5",
+        "major": {
+          "1": "github.com/makeworld-the-better-one/go-gemini-socks5"
+        },
+        "patch": []
+      },
+      "party": {
+        "source": "go.pkg.dev",
+        "type": "3rd",
+        "score": "8"
+      }
+    },
+    "go-got": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/taskcluster/go-got",
+        "latest": "github.com/taskcluster/go-got",
+        "major": {
+          "1": "github.com/taskcluster/go-got"
+        },
+        "patch": []
+      }
+    },
+    "go-gptscript": {
+      "versions": {
+        "default": "github.com/gptscript-ai/go-gptscript",
+        "latest": "github.com/gptscript-ai/go-gptscript",
+        "major": {
+          "1": "github.com/gptscript-ai/go-gptscript"
+        },
+        "patch": []
+      }
+    },
+    "go-hello": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/allah-the-dev/go-hello",
+        "latest": "github.com/allah-the-dev/go-hello",
+        "major": {
+          "1": "github.com/allah-the-dev/go-hello"
+        },
+        "patch": []
+      }
+    },
+    "go-logger": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/mrz1836/go-logger",
+        "latest": "github.com/mrz1836/go-logger",
+        "major": {
+          "1": "github.com/mrz1836/go-logger"
+        },
+        "patch": []
+      }
+    },
+    "go-nanoid": {
+      "versions": {
+        "default": "github.com/matoous/go-nanoid/v2",
+        "latest": "github.com/matoous/go-nanoid/v2",
+        "major": {
+          "2": "github.com/matoous/go-nanoid/v2"
+        },
+        "patch": []
+      }
+    },
+    "go-reap": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/hashicorp/go-reap",
+        "latest": "github.com/hashicorp/go-reap",
+        "major": {
+          "1": "github.com/hashicorp/go-reap"
+        },
+        "patch": []
+      }
+    },
+    "go-robinhood": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/iseahound/go-robinhood",
+        "latest": "github.com/iseahound/go-robinhood",
+        "major": {
+          "1": "github.com/iseahound/go-robinhood"
+        },
+        "patch": []
+      }
+    },
     "go-uuid": {
       "versions": {
-        "latest": "github.com/hashicorp/go-uuid",
         "default": "github.com/hashicorp/go-uuid",
+        "latest": "github.com/hashicorp/go-uuid",
         "major": {
           "1": "github.com/hashicorp/go-uuid"
         },
@@ -117,30 +497,145 @@
     },
     "go.uuid": {
       "versions": {
-        "latest": "github.com/satori/go.uuid",
         "default": "github.com/satori/go.uuid",
+        "latest": "github.com/satori/go.uuid",
         "major": {
           "1": "github.com/satori/go.uuid"
         },
         "patch": []
       }
     },
+    "goi": {
+      "versions": {
+        "default": "github.com/ftdot/magex/utils/gomap/goi",
+        "latest": "github.com/ftdot/magex/utils/gomap/goi",
+        "major": {
+          "1": "github.com/ftdot/magex/utils/gomap/goi"
+        },
+        "patch": []
+      }
+    },
+    "gois": {
+      "versions": {
+        "default": "github.com/mzbaulhaque/gois",
+        "latest": "github.com/mzbaulhaque/gois",
+        "major": {
+          "1": "github.com/mzbaulhaque/gois"
+        },
+        "patch": []
+      }
+    },
+    "googleai": {
+      "versions": {
+        "default": "github.com/tmc/langchaingo/llms/googleai",
+        "latest": "github.com/tmc/langchaingo/llms/googleai",
+        "major": {
+          "1": "github.com/tmc/langchaingo/llms/googleai"
+        },
+        "patch": []
+      }
+    },
     "gouuid": {
       "versions": {
-        "latest": "github.com/nu7hatch/gouuid",
         "default": "github.com/nu7hatch/gouuid",
+        "latest": "github.com/nu7hatch/gouuid",
         "major": {
           "1": "github.com/nu7hatch/gouuid"
         },
         "patch": []
       }
     },
+    "grafana-sdk": {
+      "versions": {
+        "default": "github.com/oodle-ai/grafana-sdk",
+        "latest": "github.com/oodle-ai/grafana-sdk",
+        "major": {
+          "1": "github.com/oodle-ai/grafana-sdk"
+        },
+        "patch": []
+      }
+    },
+    "grpc": {
+      "versions": {
+        "default": "github.com/Jesus-Diaz-Teracode/book-service/grpc",
+        "latest": "github.com/Jesus-Diaz-Teracode/book-service/grpc",
+        "major": {
+          "1": "github.com/Jesus-Diaz-Teracode/book-service/grpc"
+        },
+        "patch": []
+      }
+    },
     "handlers": {
       "versions": {
-        "default": "github.com/KarelKubat/whatsmeow/handlers",
-        "latest": "github.com/KarelKubat/whatsmeow/handlers",
+        "default": "github.com/Jesus-Diaz-Teracode/book-store/handlers",
+        "latest": "github.com/Jesus-Diaz-Teracode/book-store/handlers",
         "major": {
-          "1": "github.com/KarelKubat/whatsmeow/handlers"
+          "1": "github.com/Jesus-Diaz-Teracode/book-store/handlers"
+        },
+        "patch": []
+      }
+    },
+    "html2gemini": {
+      "versions": {
+        "latest": "github.com/LukeEmmet/html2gemini",
+        "default": "github.com/LukeEmmet/html2gemini",
+        "major": {
+          "1": "github.com/LukeEmmet/html2gemini"
+        },
+        "patch": []
+      },
+      "party": {
+        "source": "go.pkg.dev",
+        "type": "3rd",
+        "score": "8"
+      }
+    },
+    "jesus": {
+      "versions": {
+        "default": "github.com/hirschmann-koxha-gbr/cim/pkg/jesus",
+        "latest": "github.com/hirschmann-koxha-gbr/cim/pkg/jesus",
+        "major": {
+          "1": "github.com/hirschmann-koxha-gbr/cim/pkg/jesus"
+        },
+        "patch": []
+      }
+    },
+    "ldss": {
+      "versions": {
+        "default": "github.com/duckbrain/ldss",
+        "latest": "github.com/duckbrain/ldss",
+        "major": {
+          "1": "github.com/duckbrain/ldss"
+        },
+        "patch": []
+      }
+    },
+    "memcache": {
+      "versions": {
+        "default": "github.com/jesus-ramos/gomemcache/memcache",
+        "latest": "github.com/jesus-ramos/gomemcache/memcache",
+        "major": {
+          "1": "github.com/jesus-ramos/gomemcache/memcache"
+        },
+        "patch": []
+      }
+    },
+    "messaging": {
+      "versions": {
+        "default": "github.com/behavioral-ai/core/messaging",
+        "latest": "github.com/behavioral-ai/core/messaging",
+        "major": {
+          "1": "github.com/behavioral-ai/core/messaging"
+        },
+        "patch": []
+      }
+    },
+    "mistral-go": {
+      "versions": {
+        "default": "github.com/gage-technologies/mistral-go",
+        "latest": "github.com/gage-technologies/mistral-go",
+        "major": {
+          "1": "github.com/gage-technologies/mistral-go"
         },
         "patch": []
       }
@@ -185,10 +680,120 @@
         "patch": []
       }
     },
+    "roku-fyne": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/donuts-are-good/roku-fyne",
+        "latest": "github.com/donuts-are-good/roku-fyne",
+        "major": {
+          "1": "github.com/donuts-are-good/roku-fyne"
+        },
+        "patch": []
+      }
+    },
+    "service": {
+      "versions": {
+        "default": "github.com/jesus-mata/go-base-microservice/cmd/service",
+        "latest": "github.com/jesus-mata/go-base-microservice/cmd/service",
+        "major": {
+          "1": "github.com/jesus-mata/go-base-microservice/cmd/service"
+        },
+        "patch": []
+      }
+    },
+    "slog": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/quan-to/slog",
+        "latest": "github.com/quan-to/slog",
+        "major": {
+          "1": "github.com/quan-to/slog"
+        },
+        "patch": []
+      }
+    },
+    "tabby": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/cheynewallace/tabby",
+        "latest": "github.com/cheynewallace/tabby",
+        "major": {
+          "1": "github.com/cheynewallace/tabby"
+        },
+        "patch": []
+      }
+    },
+    "table": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/scylladb/gocqlx/v3/table",
+        "latest": "github.com/scylladb/gocqlx/v3/table",
+        "major": {
+          "1": "github.com/scylladb/gocqlx/v3/table"
+        },
+        "patch": []
+      }
+    },
+    "task": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/pcelvng/task",
+        "latest": "github.com/pcelvng/task",
+        "major": {
+          "1": "github.com/pcelvng/task"
+        },
+        "patch": []
+      }
+    },
+    "tcp_server": {
+      "party": {
+        "score": "8",
+        "source": "go.pkg.dev",
+        "type": "3rd"
+      },
+      "versions": {
+        "default": "github.com/allah-the-dev/go-sockets/tcp_server",
+        "latest": "github.com/allah-the-dev/go-sockets/tcp_server",
+        "major": {
+          "1": "github.com/allah-the-dev/go-sockets/tcp_server"
+        },
+        "patch": []
+      }
+    },
+    "utils": {
+      "versions": {
+        "default": "github.com/josesnchz/viss-manager/scripts/go/utils",
+        "latest": "github.com/josesnchz/viss-manager/scripts/go/utils",
+        "major": {
+          "1": "github.com/josesnchz/viss-manager/scripts/go/utils"
+        },
+        "patch": []
+      }
+    },
     "uuid": {
       "versions": {
-        "latest": "v2ray.com/core/common/uuid",
         "default": "v2ray.com/core/common/uuid",
+        "latest": "v2ray.com/core/common/uuid",
         "major": {
           "1": "v2ray.com/core/common/uuid"
         },

@@ -16,6 +16,8 @@ type Config struct {
     Metadata []interface{}          `json:"metadata"`
 }
 
+
+
 // DefaultConfig returns a Config with default values
 func DefaultConfig() *Config {
     exePath, _ := os.Executable()

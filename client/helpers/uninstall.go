@@ -4,12 +4,15 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/fatih/color"
+	//"github.com/fatih/color"
+	
 )
 
-// Uninstall removes a Go package using 'go get <importPath>@none' and prints output in grey
+// Uninstall removes a Go package using 'go get <importPath>@none'
+
 func Uninstall(importPath string) string {
-	fmt.Println(color.New(color.FgRed, color.Bold).Sprint("Uninstalling package " + importPath + ".."))
+	//fmt.Println(color.New(color.FgRed, color.Bold).Sprint("Uninstalling package " + importPath + ".."))
+	RedLoading("Uninstalling package " + importPath + "..")
 	cmd := exec.Command("go", "get", importPath+"@none")
 	output, err := cmd.CombinedOutput()
 	// ANSI escape code for grey: \033[90m ... \033[0m

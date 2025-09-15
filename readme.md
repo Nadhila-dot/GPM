@@ -28,6 +28,7 @@ Gpm is written in go, unlike other packages managers that are fast (bun 👀) we
 - gpm remove to remove packages
 - gpm setsource to set a new source. <-- More on this source thing later...
 
+# What happens under the hood?
 
 Todo
 - Fix return statements.

@@ -57,8 +57,8 @@ func SearchPackages(c *fiber.Ctx) error {
     }
     transformed := scrapper.TransformToClientFormat(parsed)
 
-    // Optionally, update local packages.json with new results
-    // (merge with existing if you want)
+    // Update the local registar to make things faster next time.
+    
     if len(transformed) > 0 {
         // Read existing packages.json if possible
         var allPkgs map[string]interface{}

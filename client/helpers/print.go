@@ -17,6 +17,11 @@ func Error(message string) {
 	fmt.Printf("%s\033[31m[Error] %s%s\n", bold, message, reset)
 }
 
+func RedLoading(message string) {
+	// ANSI escape code for red: \033[31m, bold: \033[1m, reset: \033[0m
+	fmt.Printf("%s\033[31m[⊗] %s%s\n", bold, message, reset)
+}
+
 func Success(message string) {
 	// ANSI escape code for green: \033[32m, bold: \033[1m, reset: \033[0m
 	fmt.Printf("%s\033[32m[Success] %s%s\n", bold, message, reset)
@@ -30,7 +35,7 @@ func SuccessCheck(message string) {
 
 func LoadingCheck(message string) {
 	// ANSI escape code for dark yellow: \033[33;2m, bold: \033[1m, reset: \033[0m
-	fmt.Printf("%s\033[33;2m[⊖] %s%s\n", bold, message, reset)
+	fmt.Printf("%s\033[33;2m[↻] %s%s\n", bold, message, reset)
 }
 
 func Loading(message string) {
